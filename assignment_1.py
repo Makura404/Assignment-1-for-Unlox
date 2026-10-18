@@ -5,7 +5,7 @@ import warnings as w
 
 w.filterwarnings('ignore')
 
-df = bamboo.read_csv(r'Projects\Getting_started_with_ML\vgsales.csv')
+df = bamboo.read_csv(r'vgsales.csv')
 
 print(df)
 print(df.shape)
